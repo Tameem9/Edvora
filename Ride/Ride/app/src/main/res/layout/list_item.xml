@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="564dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical"
+
+        android:padding="13dp">
+
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/image_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="21dp"
+            >
+
+            <TextView
+                android:id="@+id/CityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_weight=".50"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/StateName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_weight=".50"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="29dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="12dp"
+            android:text="@string/ride_id" />
+
+        <TextView
+            android:id="@+id/Origin_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="29dp"
+            android:paddingBottom="12dp"
+            android:text="@string/origin_station" />
+
+        <TextView
+            android:id="@+id/station_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="29dp"
+            android:paddingBottom="12dp"
+            android:text="@string/Station_path" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="29dp"
+            android:paddingBottom="12dp"
+            android:text="@string/Date" />
+
+        <TextView
+            android:id="@+id/Distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="29dp"
+            android:paddingBottom="12dp"
+            android:text="@string/Distance" />
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
